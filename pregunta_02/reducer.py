@@ -15,4 +15,4 @@ for line in sys.stdin:  # Itera sobre cada línea de la entrada estándar
     set_bigger_purpose(biggest_purposes, line)  # Llama a la función para establecer el propósito más grande
 
 for purpose, amount in biggest_purposes.items():  # Itera sobre cada par de clave-valor en el diccionario de propósitos más grandes
-    print(purpose + "    " + str(amount))  # Imprime el propósito y la cantidad correspondiente
+    print(purpose + "\t" + str(amount))  # Imprime el propósito y la cantidad correspondiente con una tabulación
